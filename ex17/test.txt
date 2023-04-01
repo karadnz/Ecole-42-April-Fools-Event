@@ -1,0 +1,105 @@
+
+
+//TWEET
+
+I't'`'s' a b'e'aut'i''f''u'w'e'a't'her in 'P'ar'i's and 'y'o'u'
+can ea't' delic'i''o'us croiss'a'nt at Bakery "BASSO"
+near the 42 school.
+
+
+
+0xef 0xbd 0x94 | character "fullwidth latin small letter t" corresponding to :	Html entity: &#65364;
+0xef 0xbd 0x93 | character "fullwidth latin small letter s" corresponding to :	Html entity: &#65363;
+0xe2 0x80 0x88 | character "punctuation space" corresponding to :				Html entity: &#8200;
+0xe2 0x80 0x83 | character "em space" corresponding to :Html entity: &#8195;
+0xef 0xbd 0x85 | character "fullwidth latin small letter e" corresponding to :Html entity: &#65349;
+0xef 0xbd 0x89 | character "fullwidth latin small letter i" corresponding to :Html entity: &#65353;
+0xef 0xbd 0x86 |  character "fullwidth latin small letter f" corresponding to :Html entity: &#65350;
+0xef 0xbd 0x95 |  character "fullwidth latin small letter u" corresponding to :Html entity: &#65365;
+0xef 0xbd 0x85 | character "fullwidth latin small letter e" corresponding to : Html entity: &#65349;
+0xef 0xbd 0x94 | character "fullwidth latin small letter t" corresponding to :Html entity: &#65364;
+0xe2 0x80 0x81 |  character "em quad" corresponding to :Html entity: &#8193;
+0xe2 0x80 0x80 |  character "en quad" corresponding to :Html entity: &#8192;
+0xef 0xbc 0xb0 |  character "fullwidth latin capital letter p" corresponding to :Html entity: &#65328;
+0xef 0xbd 0x89 | character "fullwidth latin small letter i" corresponding to :Html entity: &#65353;
+0xef 0xbd 0x99 | character "fullwidth latin small letter y" corresponding to :Html entity: &#65369;
+0xef 0xbd 0x95 |  character "fullwidth latin small letter u" corresponding to :Html entity: &#65365;
+0xe2 0x80 0x88 |  character "punctuation space" corresponding to :Html entity: &#8200;
+0xef 0xbd 0x94 |  character "fullwidth latin small letter t" corresponding to :Html entity: &#65364;
+0xe2 0x80 0x88 | character "punctuation space" corresponding to :Html entity: &#8200;
+0xef 0xbd 0x89 | character "fullwidth latin small letter i" corresponding to :Html entity: &#65353;
+0xef 0xbd 0x8f |  character "fullwidth latin small letter o" corresponding to :Html entity: &#65359;
+0xe2 0x80 0x87 |  character "figure space" corresponding to :Html entity: &#8199;
+
+
+0xd1 0x81 0xe2 |  
+0x85 0xb0 0xef |
+0xbd 0x81 0xef | 
+0xbd 0x85 0xef |  
+0xbd 0x94 0xef |  
+0xbd 0x89
+
+//UTF
+
+0xef 0xbd 0x94 | character "fullwidth latin small letter t" corresponding to :	Html entity: &#65364;
+0xef 0xbd 0x93 | character "fullwidth latin small letter s" corresponding to :	Html entity: &#65363;
+0xe2 0x80 0x88 | character "punctuation space" corresponding to :				Html entity: &#8200;
+0xe2 0x80 0x83 | character "em space" corresponding to :Html entity: &#8195;
+0xef 0xbd 0x85 | character "fullwidth latin small letter e" corresponding to :Html entity: &#65349;
+0xef 0xbd 0x89 | character "fullwidth latin small letter i" corresponding to :Html entity: &#65353;
+0xef 0xbd 0x86 |  character "fullwidth latin small letter f" corresponding to :Html entity: &#65350;
+0xef 0xbd 0x95 |  character "fullwidth latin small letter u" corresponding to :Html entity: &#65365;
+0xef 0xbd 0x85 | character "fullwidth latin small letter e" corresponding to : Html entity: &#65349;
+0xef 0xbd 0x94 | character "fullwidth latin small letter t" corresponding to :Html entity: &#65364;
+0xe2 0x80 0x81 |  character "em quad" corresponding to :Html entity: &#8193;
+0xe2 0x80 0x80 |  character "en quad" corresponding to :Html entity: &#8192;
+0xef 0xbc 0xb0 |  character "fullwidth latin capital letter p" corresponding to :Html entity: &#65328;
+0xef 0xbd 0x89 | character "fullwidth latin small letter i" corresponding to :Html entity: &#65353;
+0xef 0xbd 0x99 | character "fullwidth latin small letter y" corresponding to :Html entity: &#65369;
+0xef 0xbd 0x95 |  character "fullwidth latin small letter u" corresponding to :Html entity: &#65365;
+0xe2 0x80 0x88 |  character "punctuation space" corresponding to :Html entity: &#8200;
+0xef 0xbd 0x94 |  character "fullwidth latin small letter t" corresponding to :Html entity: &#65364;
+0xe2 0x80 0x88 | character "punctuation space" corresponding to :Html entity: &#8200;
+0xef 0xbd 0x89 | character "fullwidth latin small letter i" corresponding to :Html entity: &#65353;
+0xef 0xbd 0x8f |  character "fullwidth latin small letter o" corresponding to :Html entity: &#65359;
+0xe2 0x80 0x87 |  character "figure space" corresponding to :Html entity: &#8199;
+
+
+0xd1 0x81      | character "cyrillic small letter es" corresponding to :Html entity: &#1089;
+0xe2 0x85 0xb0 | character "small roman numeral one" corresponding to :Html entity: &#8560;
+0xef 0xbd 0x81 | character "fullwidth latin small letter a" corresponding to :Html entity: &#65345;
+0xef 0xbd 0x85 | character "fullwidth latin small letter e" corresponding to :Html entity: &#65349;
+0xef 0xbd 0x94 | character "fullwidth latin small letter t" corresponding to :Html entity: &#65364;
+0xef 0xbd 0x89 | character "fullwidth latin small letter i" corresponding to :Html entity: &#65353;
+
+
+
+
+0xef 0xbd 0x94 | character "fullwidth latin small letter t" 
+0xef 0xbd 0x93 | character "fullwidth latin small letter s" 
+0xe2 0x80 0x88 | character "punctuation space" 
+0xe2 0x80 0x83 | character "em space" 
+0xef 0xbd 0x85 | character "fullwidth latin small letter e" 
+0xef 0xbd 0x89 | character "fullwidth latin small letter i" 
+0xef 0xbd 0x86 |  character "fullwidth latin small letter f" 
+0xef 0xbd 0x95 |  character "fullwidth latin small letter u"
+0xef 0xbd 0x85 | character "fullwidth latin small letter e" 
+0xef 0xbd 0x94 | character "fullwidth latin small letter t" 
+0xe2 0x80 0x81 |  character "em quad" 
+0xe2 0x80 0x80 |  character "en quad" 
+0xef 0xbc 0xb0 |  character "fullwidth latin capital letter p" 
+0xef 0xbd 0x89 | character "fullwidth latin small letter i" 
+0xef 0xbd 0x99 | character "fullwidth latin small letter y" 
+0xef 0xbd 0x95 |  character "fullwidth latin small letter u" 
+0xe2 0x80 0x88 |  character "punctuation space" 
+0xef 0xbd 0x94 |  character "fullwidth latin small letter t" 
+0xe2 0x80 0x88 | character "punctuation space" 
+0xef 0xbd 0x89 | character "fullwidth latin small letter i" 
+0xef 0xbd 0x8f |  character "fullwidth latin small letter o" 
+0xe2 0x80 0x87 |  character "figure space"
+0xd1 0x81      | character "cyrillic small letter es" 
+0xe2 0x85 0xb0 | character "small roman numeral one" 
+0xef 0xbd 0x81 | character "fullwidth latin small letter a" 
+0xef 0xbd 0x85 | character "fullwidth latin small letter e" 
+0xef 0xbd 0x94 | character "fullwidth latin small letter t" 
+0xef 0xbd 0x89 | character "fullwidth latin small letter i" 

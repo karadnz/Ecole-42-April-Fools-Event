@@ -1,0 +1,7 @@
+1.	The quick brown fox jumps over the lazy dog's back	|Caesar cipher shift
+2.	K	|base64
+3.	O	|Caesar cipher  | H ALPHABETICAL
+4.	2	|ASCII
+5.	J	|NATO
+6.	F	|DUZ
+7.	E	|YUNUSZORT || INVESTIGATEFURTHER AT LOCATION FOUR DAYS, THE TIME APPROACHES	|Caesar cipher shift
