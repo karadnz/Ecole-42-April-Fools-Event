@@ -1,7 +1,20 @@
-1.	The quick brown fox jumps over the lazy dog's back	|Caesar cipher shift
-2.	K	|base64
-3.	O	|Caesar cipher  | H ALPHABETICAL
-4.	2	|ASCII
-5.	J	|NATO
-6.	F	|DUZ
-7.	E	|YUNUSZORT || INVESTIGATEFURTHER AT LOCATION FOUR DAYS, THE TIME APPROACHES	|Caesar cipher shift
+Caesar cipher shift 10
+The quick brown fox jumps over the lazy dog
+
+Base64-encoded message
+Congratulations on decoding this line, the first letter is: k
+
+Substitution Cipher
+Congratulations on decoding this line, the third letter is: h
+
+Decimal to ASCII
+CONGRATULATIONS ON DECODING THIS LINE THE NEXT CHARACTER IS 2
+
+First letter
+CONGRATULATIONS ON DECODING THIS LINE THE NEXT LETTER IS J
+
+Playfair cipher
+CONGRATULATIONS ON DECODING THIS LINE, THE LAST LETXTER IS: M
+
+Final answer:
+k h2JFM
