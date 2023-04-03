@@ -36,9 +36,9 @@ def send_email_with_attachment(subject, body, to_email, from_email, from_email_p
 if __name__ == '__main__':
     subject = 'NO ONE THOUGHT IT WAS POSSIBLE'
     body = '🦛🦛🦛🦛🦛🦛🦛🦛🦛🦛🦛🦛🦛'
-    to_email = 'mkaradeniz2003@gmail.com'
-    from_email = 'SeniorPromptEngineer@gmail.com'
-    from_email_password = 'wfazpkqfxwzzsgwa'
+    to_email = ''
+    from_email = ''
+    from_email_password = ''
     file_path = '/Users/mkaraden/Desktop/cokgizli.txt'
 
     send_email_with_attachment(subject, body, to_email, from_email, from_email_password, file_path)
