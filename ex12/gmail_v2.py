@@ -5,6 +5,7 @@ from email.mime.text import MIMEText
 from email import encoders
 import os
 
+#APP PASSWD
 def send_email_with_attachment(subject, body, to_email, from_email, from_email_password, file_path):
     # Create the MIMEMultipart object
     msg = MIMEMultipart()

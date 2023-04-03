@@ -1,48 +1,129 @@
-#include <stdio.h>
 #include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-int get_card_value(char card) {
-    if (card >= '2' && card <= '9') {
+#define INVALID_DECK 1
+#define NO_DECK 2
+#define INVALID_CARD 3
+#define CHEATING 4
+
+void print_error(int errno) {
+    switch (errno)
+    {
+        case INVALID_DECK:
+            puts("ERROR: Invalid deck, only 23456789TJDKA are allowed");
+            exit(errno);
+        case NO_DECK:
+            puts("ERROR: No deck provided, ./blackjack <deck> (23456789TJDKA)");    
+            exit(errno);
+        case INVALID_CARD:
+            puts("ERROR: An invalid card was found in the deck.");
+            exit(errno);
+        case CHEATING:
+            puts("ERROR: Cheating detected, more than 4 cards of the same value.");
+            exit(errno);
+        default:
+            printf("ERROR: Unknown error %d\n", errno);
+            break;
+    }
+}
+
+int card_value(char card, int *sum) {
+    if (card >= '2' && card <= '9')
         return card - '0';
-    } else if (card == 'T' || card == 'J' || card == 'Q' || card == 'K') {
-        return 10;
-    } else if (card == 'A') {
-        return 11;
-    } else {
-        return 0;
+    switch (card)
+    {
+        case 'J': // Jack
+        case 'Q': // Queen
+        case 'K': // King
+        case 'T': // Ten
+        case 'D': // Dame (?)
+            return 10;
+        case 'A':
+            if (*sum + 11 > 21)
+                return 1;
+            else
+                return 11;
+        default:
+            break;
     }
 }
 
-int calculate_hand_value(const char *hand) {
-    int value = 0;
-    int num_aces = 0;
-
-    for (int i = 0; i < strlen(hand); i++) {
-        int card_value = get_card_value(hand[i]);
-
-        if (hand[i] == 'A') {
-            num_aces++;
+// Check for a maximum of 4 cards of the same value
+int cheating(char *deck) {
+    int cardsCounter[13] = {0};
+    for (int i = 0; i < strlen(deck); i++) {
+        switch (deck[i])
+        {
+            case '2':
+                cardsCounter[0]++;
+                break;
+            case '3':
+                cardsCounter[1]++;
+                break;
+            case '4':
+                cardsCounter[2]++;
+                break;
+            case '5':
+                cardsCounter[3]++;
+                break;
+            case '6':
+                cardsCounter[4]++;
+                break;
+            case '7':
+                cardsCounter[5]++;
+                break;
+            case '8':
+                cardsCounter[6]++;
+                break;
+            case '9':
+                cardsCounter[7]++;
+                break;
+            case 'T':
+                cardsCounter[8]++;
+                break;
+            case 'J':
+                cardsCounter[9]++;
+                break;
+            case 'Q':
+                cardsCounter[10]++;
+                break;
+            case 'K':
+                cardsCounter[11]++;
+                break;
+            case 'A':
+                cardsCounter[12]++;
+                break;
+            default:
+                break;
         }
-
-        value += card_value;
     }
-
-    while (value > 21 && num_aces > 0) {
-        value -= 10;
-        num_aces--;
+    // If there is a card with more than 4 cards, return true
+    for (int i = 0; i < 13; i++) {
+        if (cardsCounter[i] > 4)
+            return 1;
     }
-
-    return value;
+    return 0;
 }
 
-int main() {
-    char hand[50];
+int main(int argc, char **argv) {
+    if (argc != 2) print_error(NO_DECK);
+    char possibleValues[14] = "23456789TJDKA\0";
+    char *deck = argv[1];
+    int length = strlen(deck);
+    if (length == 0) print_error(NO_DECK);
+    if (cheating(deck)) print_error(CHEATING);
+    for (int i = 0; i < strlen(deck); i++) {
+        if (strchr(possibleValues, deck[i]) == NULL)
+            print_error(INVALID_DECK);
+    }
 
-    printf("Enter a blackjack hand (e.g. D8, A4, AA8): ");
-    scanf("%s", hand);
-
-    int hand_value = calculate_hand_value(hand);
-    printf("The value of the hand is: %d\n", hand_value);
-
-    return 0;
+    int score = 0;
+    for (int i = 0; i < strlen(deck); i++) {
+        score += card_value(deck[i], &score);
+    }
+    if (score != 21)
+        printf("%d\n", score);
+    else
+        puts("Blackjack!");
 }
